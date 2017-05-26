@@ -2,7 +2,8 @@
 # osm0sis @ xda-developers
 
 ## AnyKernel setup
-# EDIFY properties
+# begin properties
+properties() {
 kernel.string=ArmaniDev++ with DT2W-S2W
 kernel.rom=
 kernel.date=
@@ -15,6 +16,7 @@ device.name2=
 device.name3=
 device.name4=
 device.name5=
+} # end properties
 
 # shell variables
 block=/dev/block/platform/msm_sdcc.1/by-name/boot;
